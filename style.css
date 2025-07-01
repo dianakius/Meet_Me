@@ -5,3 +5,28 @@ body {
   background-color: #f4f4f4;
   color: #e0861f;
 }
+/* Navigation styles */
+#navbar {
+  background-color: #db9410;
+  padding: 1rem;
+  display: flex;
+  text-align: flex-end;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
