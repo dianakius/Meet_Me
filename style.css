@@ -388,13 +388,13 @@ footer i {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--main-blue);
+  background: black;
 }
 
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-white);
+  border-bottom: 0.2rem solid white;
 }
 
 @media (max-width: 28.75em) {
@@ -425,13 +425,13 @@ footer i {
 }
 
 .project {
-  background: var(--main-gray);
+  background: gray;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
 
 .code {
-  color: var(--main-gray);
+  color: gray;
   transition: color 0.3s ease-out;
 }
 
@@ -458,12 +458,12 @@ footer i {
 
 .btn-show-all {
   font-size: 2rem;
-  background: var(--main-gray);
+  background: gray;
   transition: background 0.3s ease-out;
 }
 
 .btn-show-all:hover {
-  background: var(--main-red);
+  background: red;
 }
 
 .btn-show-all:hover > i {
