@@ -454,28 +454,28 @@ footer i {
   color: var(--accent-color);
 }
 
+/* Show All Button */
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-}
-
-.btn-show-all {
+  padding: 1.2rem 2.4rem;
+  border-radius: var(--radius);
   font-size: 2rem;
-  background: gray;
-  transition: background 0.3s ease-out;
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  transition: var(--transition);
+  margin-top: 3rem;
 }
 
 .btn-show-all:hover {
-  background: red;
+  background: var(--accent-color);
 }
 
-.btn-show-all:hover > i {
-  transform: translateX(2px);
-}
-
-.btn-show-all > i {
+.btn-show-all i {
   margin-left: 10px;
-  transform: translateX(0);
-  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease;
+}
+
+.btn-show-all:hover i {
+  transform: translateX(5px);
 }
