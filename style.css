@@ -1,3 +1,15 @@
+/*Reset styles*/
+:root {
+  --primary-color: #4a90e2;
+  --accent-color: #ff7f50;
+  --text-color: #333;
+  --bg-color: #f9f9f9;
+  --section-padding: 10rem 2rem;
+  --font-family: "Poppins", "Helvetica Neue", sans-serif;
+  --transition: all 0.3s ease;
+}
+
+
 * {
   margin: 0;
   padding: 0;
