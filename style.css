@@ -245,9 +245,9 @@ footer p {
 }
 
 :root {
-  --penguin-face: white;
-  --penguin-picorna: orange;
-  --penguin-skin: gray;
+  --penguin-face: #f4f4f9;        /* Soft creamy white */
+  --penguin-picorna: #b36b30;     /* Warm metallic copper */
+  --penguin-skin: #2a3d66;        /* Deep navy */
 }
 
 .penguin {
