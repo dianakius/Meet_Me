@@ -348,7 +348,7 @@ section {
   margin: 0 auto 6rem;
   border-bottom: 0.2rem solid var(--primary-color);
   font-size: 4.2rem;
-  font-weight: 600;
+  font-weight: var(--font-weight-heading);
 }
 
 .projects-grid {
@@ -427,7 +427,7 @@ section {
 
 .contact-section-header > h2 {
   font-size: 5rem;
-  font-weight: 600;
+  font-weight: var(--font-weight-heading);
 }
 
 .contact-section-header > p {
