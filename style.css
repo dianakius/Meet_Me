@@ -444,24 +444,14 @@ footer i {
   font-weight: 500;
 }
 
+/* Code highlight */
 .code {
-  color: gray;
-  transition: color 0.3s ease-out;
+  color: #555;
+  transition: color 0.3s ease;
 }
 
 .project:hover .code {
-  color: #ff7f50;
-}
-
-.project-image {
-  height: calc(100% - 6.8rem);
-  width: 100%;
-  object-fit: cover;
-}
-
-.project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
+  color: var(--accent-color);
 }
 
 .btn {
