@@ -46,14 +46,14 @@ html {
 /* Base styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #e0861f;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.8rem; /* 18px */
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1.8rem;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.6;
 }
+
 /* Navigation styles */
 #navbar {
   background-color: lightblue;
