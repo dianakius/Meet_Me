@@ -49,31 +49,32 @@ body {
   font-weight: 400;
 }
 
-/* Navigation styles */
+/* Navbar */
 #navbar {
-  background: linear-gradient(to right, #4a90e2, #007aff);
-  padding: 1.5rem 2rem;
+  background: linear-gradient(to right, var(--primary-color), #004e92);
+  padding: 1.5rem 3rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--box-shadow);
 }
 
 #navbar a {
   color: #fff;
+  margin: 0 1.6rem;
   text-decoration: none;
-  margin: 0 1.2rem;
   font-weight: 500;
+  font-size: 1.8rem;
   transition: var(--transition);
 }
 
 #navbar a:hover {
-  text-decoration: underline;
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 section {
