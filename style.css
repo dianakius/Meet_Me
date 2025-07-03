@@ -1,15 +1,19 @@
 /* Root variables */
 :root {
-  --primary-color: #3a6ff7;
-  --accent-color: #ff6b6b;
-  --text-color: #1e1e2f;
-  --bg-color: #f5f7fa;
+  --primary-color: #2a2f4a;        /* Deep navy blue */
+  --accent-color: #d9935c;         /* Muted copper */
+  --text-color: #2c2c2c;           /* Rich charcoal */
+  --bg-color: #f3f4f6;             /* Clean light grey */
   --section-padding: 10rem 3rem;
   --font-family: "Poppins", "Helvetica Neue", sans-serif;
   --transition: all 0.3s ease;
   --box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   --radius: 0.8rem;
+
+  --font-weight-body: 300;         /* Light for body */
+  --font-weight-heading: 600;      /* Bold for headings */
 }
+
 
 /* Reset */
 * {
