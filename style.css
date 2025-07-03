@@ -325,72 +325,6 @@ section {
   margin-top: -58px;
 }
 
-/* Contact section */
-
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
-  background: lightskyblue;
-}
-
-.contact-section-header > h2 {
-  font-size: 6rem;
-}
-
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
-  }
-}
-
-.contact-section-header > p {
-  font-style: italic;
-}
-
-.contact-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 980px;
-  margin-top: 4rem;
-  flex-wrap: wrap;
-}
-
-.contact-details {
-  font-size: 2.4rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
-  transition: transform 0.3s ease-out;
-}
-
-.contact-details:hover {
-  transform: translateY(8px);
-}
-
-/* Footer */
-
-footer {
-  font-weight: 300;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2rem;
-  background: lightblue;
-  border-top: 4px solid pink;
-}
-
-footer > p {
-  margin: 2rem;
-}
-
-footer i {
-  vertical-align: middle;
-}
-
 @media (max-width: 28.75em) {
   footer {
     flex-direction: column;
@@ -478,4 +412,63 @@ footer i {
 
 .btn-show-all:hover i {
   transform: translateX(5px);
+}
+/* Contact Section */
+.contact-section {
+  padding: var(--section-padding);
+  background: linear-gradient(to right, #b3d6fc, #a4e8e0);
+  text-align: center;
+}
+
+.contact-section-header > h2 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.contact-section-header > p {
+  font-size: 2.2rem;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact-details:hover {
+  transform: translateY(-6px);
+}
+
+/* Footer */
+footer {
+  background: #cfe8f9;
+  border-top: 4px solid var(--accent-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
 }
