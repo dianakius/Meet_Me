@@ -81,6 +81,10 @@ body {
   color: var(--accent-color);
 }
 
+section {
+  padding: var(--section-padding);
+}
+
 /* Welcome section */
 
 #welcome-section {
@@ -88,20 +92,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100vh;
-  background-color: lightcoral;
-  background-image: linear-gradient(62deg, #629bd3 0%, #6260e2 100%);
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  text-align: center;
 }
 
 #welcome-section > p {
   font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
+  font-weight: 300;
   color: #fff;
-  text-align: center;
-  margin-top: 50px;
+  margin-top: 2rem;
+  max-width: 600px;
 }
+
 :root {
   --penguin-face: white;
   --penguin-picorna: orange;
