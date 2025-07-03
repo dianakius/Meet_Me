@@ -56,28 +56,31 @@ body {
 
 /* Navigation styles */
 #navbar {
-  background-color: lightblue;
-  padding: 1rem;
+  background: linear-gradient(to right, #4a90e2, #007aff);
+  padding: 1.5rem 2rem;
   display: flex;
-  text-align: flex-end;
   justify-content: flex-end;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* Ensures it stays above other content */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 #navbar a {
   color: #fff;
   text-decoration: none;
-  margin: 0 1rem;
-  font-weight: bold;
+  margin: 0 1.2rem;
+  font-weight: 500;
+  transition: var(--transition);
 }
 
 #navbar a:hover {
   text-decoration: underline;
+  color: var(--accent-color);
 }
+
 /* Welcome section */
 
 #welcome-section {
