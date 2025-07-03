@@ -81,24 +81,24 @@ section {
   padding: var(--section-padding);
 }
 
-/* Welcome section */
-
+/* Welcome Section */
 #welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
   text-align: center;
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  color: #fff;
+  padding: var(--section-padding);
 }
 
 #welcome-section > p {
   font-size: 3rem;
   font-weight: 300;
-  color: #fff;
-  margin-top: 2rem;
   max-width: 600px;
+  margin-top: 2rem;
 }
 
 :root {
